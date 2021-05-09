@@ -23,43 +23,43 @@ namespace UATPhoneCompany.Steps
         [Given("the hardware name is '(.*.\\w)'")]
         public void GivenTheHardwareNameIs(string hardwareName)
         {
-
+            _scenarioContext.Pending();
         }
 
         [Given("the requested amount is (.*)")]
         public void GivenTheRequestedAmountIs(int requestedAmount)
         {
-
+            _scenarioContext.Pending();
         }
 
         [Given("the destination is '(.*.\\w)'")]
         public void GivenTheDestinationIs(string destination)
         {
-
+            _scenarioContext.Pending();
         }
 
         [Given("the depot storage quantity is greater than the requested amount")]
         public void GivenTheDepotStorageIsGreaterThanTheRequestedAmount()
         {
-
+            _scenarioContext.Pending();
         }
 
         [Given("the depot storage quantity is less than the requested amount")]
         public void GivenTheDepotStorageIsLessThanTheRequestedAmount()
         {
-
+            _scenarioContext.Pending();
         }
 
         [Given("the item exists")]
         public void GivenTheItemExists()
         {
-
+            _scenarioContext.Pending();
         }
 
         [Given("the item does not exist")]
         public void GivenTheItemDoesNotExist()
         {
-
+            _scenarioContext.Pending();
         }
 
 
@@ -70,19 +70,19 @@ namespace UATPhoneCompany.Steps
         [When("I request the transfer of hardware")]
         public void WhenIRequestTheTransferOfHardware()
         {
-
+            _scenarioContext.Pending();
         }
 
         [When("I order the new material")]
         public void WhenIOrderTheNewMaterial()
         {
-
+            _scenarioContext.Pending();
         }
 
         [When("I attempt to check the depot's stock for the item")]
         public void WhenIAttemptToCheckTheDepotsStocksForTheItem()
         {
-
+            _scenarioContext.Pending();
         }
 
         #endregion
@@ -93,13 +93,13 @@ namespace UATPhoneCompany.Steps
         [Then("the depot should respond with a successful message")]
         public void ThenTheDepotShouldRespondWithASuccessfulMessage()
         {
-
+            _scenarioContext.Pending();
         }
 
         [Then("the depot should respond with an unsuccessful message")]
         public void ThenTheDepotShouldRespondWithAnUnSuccessfulMessage()
         {
-
+            _scenarioContext.Pending();
         }
 
         #endregion
